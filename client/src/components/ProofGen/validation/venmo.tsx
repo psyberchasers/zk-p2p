@@ -3,7 +3,7 @@ import { dkimVerify } from '@helpers/dkim';
 
 const VENMO_DOMAIN_KEYS = process.env.VENMO_DOMAIN_KEYS;
 if (!VENMO_DOMAIN_KEYS) {
-  throw new Error("VENMO_DOMAIN_KEYS environment variable is not defined.");
+ throw new Error("VENMO_DOMAIN_KEYS environment variable is not defined.");
 }
 
 export const validateDKIMSignature = async (raw_email: string) => {

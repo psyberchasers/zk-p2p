@@ -661,7 +661,7 @@ module.exports = function (webpackEnv) {
         'process.env.ALCHEMY_SOLANA_API_KEY': JSON.stringify(process.env.ALCHEMY_SOLANA_API_KEY),
 
         'process.env.REMOTE_PROOF_API_URL': JSON.stringify(process.env.REMOTE_PROOF_API_URL),
-        'process.env.VENMO_DOMAIN_KEYS': JSON.stringify(process.env.VENMO_DOMAIN_KEYS),
+        //'process.env.VENMO_DOMAIN_KEYS': JSON.stringify(process.env.VENMO_DOMAIN_KEYS),
         'process.env.VENMO_DENY_LIST_URL': JSON.stringify(process.env.VENMO_DENY_LIST_URL),
 
         'process.env.REMOTE_PROOF_UPI_API_URL': JSON.stringify(process.env.REMOTE_PROOF_UPI_API_URL),
